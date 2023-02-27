@@ -14,5 +14,7 @@ Run the script
 
 You need to rename the file .env.example to .env and fill in the following fields:
 
-IG_USERNAME=your_username
-IG_PASSWORD=your_password
+```dosini
+IG_USERNAME='your_username'
+IG_PASSWORD='your_password'
+```
