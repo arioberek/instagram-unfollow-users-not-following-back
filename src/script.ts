@@ -4,8 +4,6 @@ import { IgApiClient, Feed } from "instagram-private-api";
 
 const ig = new IgApiClient();
 
-console.log(process.env.IG_USERNAME as string);
-
 ig.state.generateDevice(process.env.IG_USERNAME as string);
 
 (async () => {
